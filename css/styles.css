@@ -6941,7 +6941,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
   color: #808080;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -6954,20 +6954,20 @@ h2 {
 }
 h3 {
   font-size: 1.5rem;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
 }
 h4 {
   font-size: 1.125rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 h5 {
   font-size: 1rem;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 500;
 }
 h6 {
   font-size: 1rem;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 600;
   margin-bottom: 1.5rem;
@@ -6977,12 +6977,12 @@ h6 {
 }
 .heading h2 {
   color: #ca071c;
-  text-transform: uppercase;
-  font-weight: 600;
+/*  text-transform: uppercase;*/
+/*  font-weight: 600;*/
   margin: 0;
 }
 .subheading {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-style: italic;
   text-transform: lowercase;
@@ -7000,7 +7000,7 @@ h6 {
 .button {
   border-radius: 5px;
   border: 2px solid #ca071c;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -7072,7 +7072,7 @@ label {
   display: block;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
 }
 input[type="submit"] {
   background: transparent;
@@ -7153,7 +7153,7 @@ input[type="submit"] {
   margin-right: 0;
 }
 .navbar-nav > li > a {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -7183,7 +7183,7 @@ body {
   background-attachment: fixed;
   background-position: center center;
   background-color: #808080;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
 }
 .hero-front-bg {
@@ -7254,7 +7254,7 @@ body {
   margin-bottom: 3rem;
 }
 .portfolio-sorting li a {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
   color: #808080;
   text-transform: uppercase;
@@ -7488,7 +7488,7 @@ body {
   color: #ca071c;
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
 }
