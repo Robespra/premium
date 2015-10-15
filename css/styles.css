@@ -1140,6 +1140,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-width:300px;
+  margin:0 auto;
+}
+
+
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -4443,7 +4452,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
+    /*margin-left: -15px;*/
   }
 }
 .navbar-toggle {
@@ -6479,22 +6488,22 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);*/
 }
 .carousel-control.right {
   left: auto;
   right: 0;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);*/
 }
 .carousel-control:hover,
 .carousel-control:focus {
@@ -6590,6 +6599,7 @@ button.close {
     height: 30px;
     margin-top: -15px;
     font-size: 30px;
+    color: red;
   }
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
@@ -6915,7 +6925,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font: 1em / 1.5em "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Neuton', serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.375;
   color: #808080;
   -webkit-font-smoothing: antialiased;
 }
@@ -6941,7 +6954,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
   color: #808080;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -6968,8 +6982,8 @@ h5 {
 h6 {
   font-size: 1rem;
 /*  text-transform: uppercase;*/
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-family: 'Neuton', serif;
+  font-weight: 300;
   margin-bottom: 1.5rem;
 }
 .heading {
@@ -6978,14 +6992,13 @@ h6 {
 .heading h2 {
   color: #ca071c;
 /*  text-transform: uppercase;*/
-/*  font-weight: 600;*/
+/*  font-weight: 300;*/
   margin: 0;
 }
 .subheading {
-  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  font-style: italic;
-  text-transform: lowercase;
+  font-weight:400;
 }
 /*=================================
 =            UI STYLES            =
@@ -7000,7 +7013,7 @@ h6 {
 .button {
   border-radius: 5px;
   border: 2px solid #ca071c;
-  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -7072,7 +7085,7 @@ label {
   display: block;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 input[type="submit"] {
   background: transparent;
@@ -7081,9 +7094,9 @@ input[type="submit"] {
 .add-padding {
   padding: 3rem 0;
 }
-.add-nav-padding {
+/*.add-nav-padding {
   padding-top: 5.625rem;
-}
+}*/
 .alternate-bg {
   background-color: #f1f5f8;
 }
@@ -7092,6 +7105,7 @@ input[type="submit"] {
   background-color: #ca071c;
   color: #ffffff;
   padding: 0.75rem 0;
+  display:none;
 }
 .header-top ul {
   margin-bottom: 0;
@@ -7117,19 +7131,22 @@ input[type="submit"] {
 /*==========  HEADER STYLE   ==========*/
 .navbar-fixed-top {
   top: 0;
+  position:fixed !important;
+  background-color:#ffffff;
 }
 .navbar-fixed-top .navbar-right {
   margin-right: 0;
 }
 .navbar {
-  background-color: #fff;
+  position: relative;
   border-radius: 0;
   border: none;
   margin-bottom: 0;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+      padding-bottom: 2rem;
 }
 .navbar .logo {
   display: inline-block;
+      width: 42%;
   margin-right: 0.75rem;
 }
 .navbar h1 {
@@ -7153,7 +7170,7 @@ input[type="submit"] {
   margin-right: 0;
 }
 .navbar-nav > li > a {
-  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -7168,7 +7185,7 @@ input[type="submit"] {
 .navbar-nav > li > a:hover {
   color: #ca071c;
   border-bottom: 3px solid #ca071c;
-  padding-bottom: 2.0625rem;
+  /*padding-bottom: 2.0625rem;*/
   background: none;
 }
 body {
@@ -7187,11 +7204,11 @@ body {
   color: #ffffff;
 }
 .hero-front-bg {
-  background-image: url("../img/hero-bg.png");
+  background-image: url("../img/hero-bg1.jpg");
   height: 34.5rem;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
   height: 100%;
 }
 .hero-header {
@@ -7205,9 +7222,9 @@ body {
 }
 .hero-subheading {
   font-size: 1.5rem;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Neuton', serif;
+  font-weight: 300;
+/*  background-color: rgba(0, 0, 0, 0.3);*/
   display: inline-block;
   padding: 0.75rem 1.5rem;
   margin-bottom: 4.5rem;
@@ -7220,13 +7237,8 @@ body {
 }
 /*==========  SERVICES SECTION  ==========*/
 .service-box .icon .fa {
-  font-size: 2.25rem;
-  border: 2px solid #ca071c;
-  border-radius: 50%;
-  width: 7.5rem;
-  height: 7.5rem;
-  padding-top: 2.5rem;
-  color: #ca071c;
+  font-size: 1.50rem;
+   color: #ca071c;
   margin-bottom: 1.5rem;
 }
 .service-box h4 {
@@ -7254,7 +7266,7 @@ body {
   margin-bottom: 3rem;
 }
 .portfolio-sorting li a {
-  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   color: #808080;
   text-transform: uppercase;
@@ -7281,7 +7293,11 @@ body {
   margin-top: -6px;
   width: 100% !important;
   overflow: hidden;
+  padding-left: 0;
 }
+.portfolio-left{
+    padding-left: 0;
+  }
 .portfolio-item {
   display: block;
   position: relative;
@@ -7327,7 +7343,7 @@ body {
 .section-cta {
   background-color: #ca071c;
   color: #ffffff;
-  background-image: url("../img/cta-bg.png");
+  /*background-image: url("../img/cta-bg.png");*/
 }
 .cta-text,
 .cta-button {
@@ -7336,7 +7352,7 @@ body {
 .cta-text {
   font-size: 1.5rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
   display: inline-block;
 }
 .cta-button {
@@ -7488,9 +7504,9 @@ body {
   color: #ca071c;
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: "Abril Fatface", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
 }
 blockquote footer::before {
   content: none;
