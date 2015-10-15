@@ -1143,7 +1143,7 @@ img {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  max-width:300px;
+  max-width:500px;
   margin:0 auto;
 }
 
@@ -5623,8 +5623,7 @@ button.list-group-item-danger.active:focus {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
@@ -6402,6 +6401,7 @@ button.close {
   position: relative;
   overflow: hidden;
   width: 100%;
+  min-height:450px;
 }
 .carousel-inner > .item {
   display: none;
@@ -7045,8 +7045,8 @@ h6 {
 }
 .button-ghost-inverse:hover {
   color: #fff;
-  background-color: #1b557a;
-  border-color: #164666;
+  background-color: transparent;
+  border-color: #ffffff;
   transition: all 0.3s ease-in;
 }
 .button-full {
@@ -7055,7 +7055,8 @@ h6 {
 }
 .button-full:hover {
   color: #fff;
-  background-color: #1b557a;
+  background-color: transparent;
+  border-color: #ffffff;
   transition: all 0.3s ease-in;
 }
 /*==========  FORMS  ==========*/
@@ -7142,7 +7143,7 @@ input[type="submit"] {
   border-radius: 0;
   border: none;
   margin-bottom: 0;
-      padding-bottom: 2rem;
+      padding-bottom: 2.1rem;
 }
 .navbar .logo {
   display: inline-block;
@@ -7246,11 +7247,11 @@ body {
   margin-top: 0;
   font-size: 1.5rem;
 }
-.service-box:hover .fa {
+/*.service-box:hover .fa {
   color: #ffffff;
   background-color: #ca071c;
   transition: color 0.3s ease-in;
-}
+}*/
 .service-box:hover h4 {
   color: #ca071c;
   transition: color 0.3s ease-in;
@@ -7367,7 +7368,6 @@ body {
   margin-bottom: 0;
 }
 .panel {
-  border: 1px solid #c7cad1;
   border-radius: 5px;
 }
 .panel > .panel-heading {
@@ -7376,8 +7376,6 @@ body {
 }
 .panel-heading {
   padding: 0.75rem 1.5rem;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
 }
 .panel-heading a {
   display: block;
@@ -7387,10 +7385,9 @@ body {
   color: #ffffff;
 }
 .panel > .panel-heading.active + .panel-collapse > .panel-body {
-  background-color: #f1f5f8;
-  border: 1px solid #ca071c;
+/*  background-color: #f1f5f8;
   border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;*/
 }
 .panel > .panel-heading + .panel-collapse > .panel-body {
   padding: 0.75rem 1.5rem;
