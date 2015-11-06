@@ -7176,6 +7176,7 @@ input[type="submit"] {
   font-weight: 700;
   text-transform: uppercase;
   color: #808080;
+  border-bottom: 3px solid transparent;
 }
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
