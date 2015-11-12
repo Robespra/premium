@@ -7345,7 +7345,11 @@ body {
 .section-cta {
   background-color: #b00c2a;
   color: #ffffff;
-  /*background-image: url("../img/cta-bg.png");*/
+  /*background-image: url("../img/clipping-medias.png");*/
+}
+
+.padding30{
+  padding-top:30px;
 }
 .cta-text,
 .cta-button {
