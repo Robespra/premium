@@ -7314,6 +7314,7 @@ body {
   position: relative;
   overflow: hidden;
   margin-bottom: 1.875rem;
+      border-radius: 10px;
 }
 .portfolio-item:hover .item-caption {
   opacity: 0.8;
@@ -7656,7 +7657,7 @@ blockquote footer::before {
 ======================================*/
 .main-footer {
   color: #ffffff;
-  background-color: #34495e;
+  background-color: #b00c2a;
 }
 .main-footer .social-icons a {
   color: #ffffff;
@@ -7882,8 +7883,13 @@ blockquote footer::before {
 .grid__item {
   width: 270px;
   padding: 10px;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
+.grid__item:hover{
+  opacity:0.6;
+  }
 .grid__item--current {
   opacity: 0 !important;
 }
