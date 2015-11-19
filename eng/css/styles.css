@@ -256,6 +256,7 @@ th {
   h3 {
     page-break-after: avoid;
   }
+
   .navbar {
     display: none;
   }
@@ -278,6 +279,19 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+ul.languages{
+    width: 182px;
+    position: absolute;
+    right: 0;
+    font-family: 'Montserrat', sans-serif;
+        font-size: 0.6em;
+    margin: 1% auto;
+  }
+  .languages li{
+    list-style:none;
+    width: 50px;
+    float: left;
+  }
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
@@ -4437,10 +4451,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
-  height: 50px;
+  overflow:hidden;
+  margin-top:5%;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {

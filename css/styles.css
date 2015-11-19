@@ -256,6 +256,7 @@ th {
   h3 {
     page-break-after: avoid;
   }
+  
   .navbar {
     display: none;
   }
@@ -277,6 +278,19 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+}
+ul.languages{
+  width: 182px;
+  position: absolute;
+  right: 0;
+  font-family: 'Montserrat', sans-serif;
+      font-size: 0.6em;
+  margin: 1% auto;
+}
+.languages li{
+  list-style:none;
+  width: 50px;
+  float: left;
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
